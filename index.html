@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa Fofa</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('https://media.giphy.com/media/2yXxlnhqb9KqA/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            color: white;
+            background-color: yellow;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bem Vindo</h1>
+    <button class="button" onclick="redirectToVideo()">Surpresa</button>
+
+    <script>
+        function redirectToVideo() {
+            // Redireciona para o link do YouTube
+            window.location.href = 'https://youtu.be/F5e0LxletKU?si=rYY3Ezrdh4lsfMJ0';
+        }
+    </script>
+
+</body>
+</html>
